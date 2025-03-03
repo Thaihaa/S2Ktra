@@ -28,12 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            lblMatKhau = new Label();
+            txtmatkhau = new TextBox();
+            SuspendLayout();
+            // 
+            // lblMatKhau
+            // 
+            lblMatKhau.AutoSize = true;
+            lblMatKhau.Location = new Point(163, 151);
+            lblMatKhau.Name = "lblMatKhau";
+            lblMatKhau.Size = new Size(73, 20);
+            lblMatKhau.TabIndex = 0;
+            lblMatKhau.Text = "Mật khẩu:";
+            // 
+            // txtmatkhau
+            // 
+            txtmatkhau.Location = new Point(258, 151);
+            txtmatkhau.Name = "txtmatkhau";
+            txtmatkhau.Size = new Size(333, 27);
+            txtmatkhau.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(txtmatkhau);
+            Controls.Add(lblMatKhau);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lblMatKhau;
+        private TextBox txtmatkhau;
     }
 }
