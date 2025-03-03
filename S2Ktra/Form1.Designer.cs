@@ -31,7 +31,7 @@
             lblUserName = new Label();
             txtUserName = new TextBox();
             lblPassword = new Label();
-            txtPassWord = new TextBox();
+            textboxmatkhau = new TextBox();
             btnLogin = new Button();
             SuspendLayout();
             // 
@@ -60,12 +60,12 @@
             lblPassword.TabIndex = 0;
             lblPassword.Text = "Mật khẩu";
             // 
-            // txtPassWord
+            // textboxmatkhau
             // 
-            txtPassWord.Location = new Point(231, 151);
-            txtPassWord.Name = "txtPassWord";
-            txtPassWord.Size = new Size(333, 27);
-            txtPassWord.TabIndex = 1;
+            textboxmatkhau.Location = new Point(231, 151);
+            textboxmatkhau.Name = "textboxmatkhau";
+            textboxmatkhau.Size = new Size(333, 27);
+            textboxmatkhau.TabIndex = 1;
             // 
             // btnLogin
             // 
@@ -84,7 +84,7 @@
             Controls.Add(btnLogin);
             Controls.Add(txtUserName);
             Controls.Add(lblUserName);
-            Controls.Add(txtPassWord);
+            Controls.Add(textboxmatkhau);
             Controls.Add(lblPassword);
             Name = "Form1";
             Text = "Form1";
@@ -95,7 +95,7 @@
         #endregion
 
         private Label lblPassword;
-        private TextBox txtPassWord;
+        private TextBox textboxmatkhau;
 
         private Label lblUserName;
         private TextBox txtUserName;
