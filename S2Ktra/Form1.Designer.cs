@@ -40,9 +40,9 @@
             lblUserName.AutoSize = true;
             lblUserName.Location = new Point(110, 76);
             lblUserName.Name = "lblUserName";
-            lblUserName.Size = new Size(78, 20);
+            lblUserName.Size = new Size(107, 20);
             lblUserName.TabIndex = 0;
-            lblUserName.Text = "UserName";
+            lblUserName.Text = "Tên đăng nhập";
             // 
             // txtUserName
             // 
@@ -56,9 +56,9 @@
             lblPassword.AutoSize = true;
             lblPassword.Location = new Point(110, 154);
             lblPassword.Name = "lblPassword";
-            lblPassword.Size = new Size(72, 20);
+            lblPassword.Size = new Size(70, 20);
             lblPassword.TabIndex = 0;
-            lblPassword.Text = "PassWord";
+            lblPassword.Text = "Mật khẩu";
             // 
             // txtPassWord
             // 
