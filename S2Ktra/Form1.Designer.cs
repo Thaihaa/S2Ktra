@@ -48,7 +48,7 @@
             // 
             textboxUserName.Location = new Point(231, 81);
             textboxUserName.Name = "textboxUserName";
-            textboxUserName.Size = new Size(125, 27);
+            textboxUserName.Size = new Size(333, 27);
             textboxUserName.TabIndex = 1;
             // 
             // lblPassword
