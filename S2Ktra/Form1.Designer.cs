@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             lblUserName = new Label();
-            txtUserName = new TextBox();
+            textboxUserName = new TextBox();
             lblPassword = new Label();
             txtPassWord = new TextBox();
             btnLogin = new Button();
@@ -44,12 +44,12 @@
             lblUserName.TabIndex = 0;
             lblUserName.Text = "Tên đăng nhập";
             // 
-            // txtUserName
+            // textboxUserName
             // 
-            txtUserName.Location = new Point(231, 81);
-            txtUserName.Name = "txtUserName";
-            txtUserName.Size = new Size(125, 27);
-            txtUserName.TabIndex = 1;
+            textboxUserName.Location = new Point(231, 81);
+            textboxUserName.Name = "textboxUserName";
+            textboxUserName.Size = new Size(125, 27);
+            textboxUserName.TabIndex = 1;
             // 
             // lblPassword
             // 
@@ -82,7 +82,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(btnLogin);
-            Controls.Add(txtUserName);
+            Controls.Add(textboxUserName);
             Controls.Add(lblUserName);
             Controls.Add(txtPassWord);
             Controls.Add(lblPassword);
@@ -98,7 +98,7 @@
         private TextBox txtPassWord;
 
         private Label lblUserName;
-        private TextBox txtUserName;
+        private TextBox textboxUserName;
         private Button btnLogin;
     }
 }
