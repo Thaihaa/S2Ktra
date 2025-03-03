@@ -28,6 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
+            lblUserName = new Label();
+            txtUserName = new TextBox();
+            SuspendLayout();
+            // 
+            // lblUserName
+            // 
+            lblUserName.AutoSize = true;
+            lblUserName.Location = new Point(110, 76);
+            lblUserName.Name = "lblUserName";
+            lblUserName.Size = new Size(78, 20);
+            lblUserName.TabIndex = 0;
+            lblUserName.Text = "UserName";
+            // 
+            // txtUserName
+            // 
+            txtUserName.Location = new Point(231, 81);
+            txtUserName.Name = "txtUserName";
+            txtUserName.Size = new Size(125, 27);
+            txtUserName.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(txtUserName);
+            Controls.Add(lblUserName);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
             lblMatKhau = new Label();
             txtmatkhau = new TextBox();
             SuspendLayout();
@@ -65,5 +96,8 @@
 
         private Label lblMatKhau;
         private TextBox txtmatkhau;
+
+        private Label lblUserName;
+        private TextBox txtUserName;
     }
 }
