@@ -30,6 +30,9 @@
         {
             lblUserName = new Label();
             txtUserName = new TextBox();
+            lblPassword = new Label();
+            txtPassWord = new TextBox();
+            btnLogin = new Button();
             SuspendLayout();
             // 
             // lblUserName
@@ -48,44 +51,41 @@
             txtUserName.Size = new Size(125, 27);
             txtUserName.TabIndex = 1;
             // 
+            // lblPassword
+            // 
+            lblPassword.AutoSize = true;
+            lblPassword.Location = new Point(110, 154);
+            lblPassword.Name = "lblPassword";
+            lblPassword.Size = new Size(72, 20);
+            lblPassword.TabIndex = 0;
+            lblPassword.Text = "PassWord";
+            // 
+            // txtPassWord
+            // 
+            txtPassWord.Location = new Point(231, 151);
+            txtPassWord.Name = "txtPassWord";
+            txtPassWord.Size = new Size(333, 27);
+            txtPassWord.TabIndex = 1;
+            // 
+            // btnLogin
+            // 
+            btnLogin.Location = new Point(234, 220);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(94, 29);
+            btnLogin.TabIndex = 2;
+            btnLogin.Text = "Login";
+            btnLogin.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnLogin);
             Controls.Add(txtUserName);
             Controls.Add(lblUserName);
-            Name = "Form1";
-            Text = "Form1";
-            ResumeLayout(false);
-            PerformLayout();
-            lblMatKhau = new Label();
-            txtmatkhau = new TextBox();
-            SuspendLayout();
-            // 
-            // lblMatKhau
-            // 
-            lblMatKhau.AutoSize = true;
-            lblMatKhau.Location = new Point(163, 151);
-            lblMatKhau.Name = "lblMatKhau";
-            lblMatKhau.Size = new Size(73, 20);
-            lblMatKhau.TabIndex = 0;
-            lblMatKhau.Text = "Mật khẩu:";
-            // 
-            // txtmatkhau
-            // 
-            txtmatkhau.Location = new Point(258, 151);
-            txtmatkhau.Name = "txtmatkhau";
-            txtmatkhau.Size = new Size(333, 27);
-            txtmatkhau.TabIndex = 1;
-            // 
-            // Form1
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(txtmatkhau);
-            Controls.Add(lblMatKhau);
+            Controls.Add(txtPassWord);
+            Controls.Add(lblPassword);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -94,10 +94,11 @@
 
         #endregion
 
-        private Label lblMatKhau;
-        private TextBox txtmatkhau;
+        private Label lblPassword;
+        private TextBox txtPassWord;
 
         private Label lblUserName;
         private TextBox txtUserName;
+        private Button btnLogin;
     }
 }
